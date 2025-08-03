@@ -1,7 +1,7 @@
 .header {
     background-color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     width: 100%;
     margin-bottom: -30px;
     padding-bottom: 40px;
@@ -95,4 +95,72 @@ input {
     background-repeat: no-repeat;
     background-size: contain;
     padding-left: 30px;
+}
+
+.con1 {
+    background-color: white;
+    width: 96%;
+    font-size: 40px;
+    margin-top: 15px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 10%;
+}
+
+.con1a,
+.con1b,
+.con1c {
+    background-color: #0a767e;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+    width: 94%;
+}
+
+.con2 {
+    background-color: white;
+    width: 96%;
+    font-size: 25px;
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.Links {
+    background-color: white;
+    width: 96%;
+    font-size: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5%;
+    text-decoration: none;
+    text-align: center;
+}
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+.color {
+    background-color: var(--primary-color);
+}
+
+/*@media (min-width: 300px) {
+    .con1 {
+        grid-template-areas:
+            "header"
+            "hero"
+            "main"
+            "sidebar"
+            "footer";
+        grid-template-columns: 1fr;
+    }
+
 }
